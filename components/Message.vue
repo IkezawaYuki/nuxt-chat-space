@@ -1,20 +1,20 @@
 <template>
     <div class="contents__post">
-
-        <div class="contents__post__head">
-            <div class="user_name">
-
-            </div>
-            <div class="date">
-
-            </div>
+    <div class="contents__post__head">
+        <div class="user_name">
+        user name
         </div>
+        <div class="date">
+        日付
+        </div>
+    </div>
         <p v-if="true" class="contents__post__text">
-            メッセージコンテンツ
+        メッセージコンテント
         </p>
-
-        <!-- todo -->
-
+    
+    <!-- todo -->
+    <!-- <%= image_tag message.image.url, class: "contents__post__image" if message.image.present? %> -->
+    
     </div>
 </template>
 
